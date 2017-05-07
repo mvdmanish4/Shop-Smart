@@ -1,0 +1,234 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.androidhive.materialdesign.activity.HomeFragment">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="ShoppersStop"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Edit fragment_home.xml to change the appearance" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="15dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_latest_trending"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="16dp"
+                        android:text="Latest Trending"
+
+                        android:textSize="20dp" />
+
+
+                    <ImageView
+                        android:id="@+id/img_mens_shirts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_latest_trending"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/men_shirts" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_dune_london"
+                        android:background="#50000000"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                         />
+
+                    <Button
+                        android:id="@+id/btn_shop_mens_shirts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_dune_london"
+                        android:layout_alignParentRight="true"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/img_dune_london"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_mens_shirts"
+                        android:layout_marginTop="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/dune_london" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_lady_jackets"
+                        android:background="#50000000"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_shop_dune_london"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_lady_jackets"
+                        android:layout_alignParentRight="true"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/img_lady_jackets"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_dune_london"
+                        android:layout_marginTop="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/women_jackets" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_women_jeans"
+                        android:background="#50000000"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                         />
+
+                    <Button
+                        android:id="@+id/btn_shop_women_jackets"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_women_jeans"
+                        android:layout_alignParentRight="true"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                         />
+
+
+                    <ImageView
+                        android:id="@+id/img_women_jeans"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_lady_jackets"
+                        android:layout_marginTop="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/women_jeans" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_women_heels"
+                        android:background="#50000000"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_shop_women_jeans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/img_women_heels"
+                        android:layout_alignParentRight="true"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/img_women_heels"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_women_jeans"
+                        android:layout_marginTop="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/women_heels" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_women_heels"
+                        android:background="#50000000"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_shop_women_heels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/img_women_heels"
+
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                         />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

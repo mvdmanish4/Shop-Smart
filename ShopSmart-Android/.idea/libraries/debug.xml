@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-d7007932ceaae31cd4ec5e52362388815e9ac0f1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-26460c41a399f9a4918a98cc671a487ff06edb25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-f36c7eb3d254205a7fd2843b1e97eb1ce8f23a9b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-2e3e3c61d61f5762b5e548b2ee6a238bc751a645.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-2988d116a97837a9da2ee11b6efbd964afb527d1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-7caff74b030fc24e71c8953d66c24911a9abce2b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-54a4685f7c647294c1a445e20b72f79805647049.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-77a438440d88d7dfca14c1f1769ef5199c22f218.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/bolts-android-1.4.0-022c2326a00c5dd5507a800187eff9b63ceeb53c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1-6abfcb1da88524795c90fd8e7fca491f68993785.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-59ce47009298386c7ccb78f473a67a8c1b096a00.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-afae7716b661fd2bd15a66ec7660a2c4f8580a42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-f9af3273e19fd2ca3832efaaf7be7ae949a95f8b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0-1943f17a6ad54a874569dda4b0f457571be0d817.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/core-3.2.1-9ddb27cab383556e0774bbf2a1304293a7cc8b5d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-e3871f894c23ba7b95e1c31fea726ef4f3670580.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-322cd93502ebfb8ca83eb463fa9487887a550bb2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-bd6f3cda2d45a0ec9fa95eed9a4405dbb99e488f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-32e7dcc8d674c022a139576d28496caaddfd9695.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-ed88af3c8b5ad98f18f084476b052ce49c921f4d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MaterialDesign/app/build/intermediates/pre-dexed/debug/classes-f3c67e12aee8e4824aa4d9f861a7e61025cda253.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
